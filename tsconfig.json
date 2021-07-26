@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonJs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "rootDirs": ["src", "stories"],
+    "outDir": "build",
+    "strict": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitReturns": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "include": [
+    "src",
+    "tests"
+  ]
+}
